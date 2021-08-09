@@ -1,0 +1,633 @@
+
+@font-face {
+    font-family: 'Gelion';
+    src: url('./../../assets/transfonter.org-20210809-124050/Gelion-Black.woff2') format('woff2'),
+        url('./../../assets/transfonter.org-20210809-124050/Gelion-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gelion';
+    src: url('./../../assets/transfonter.org-20210809-124050/Gelion-BlackItalic.woff2') format('woff2'),
+        url('./../../assets/transfonter.org-20210809-124050/Gelion-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gelion';
+    src: url('./../../assets/transfonter.org-20210809-124050/Gelion-LightItalic.woff2') format('woff2'),
+        url('./../../assets/transfonter.org-20210809-124050/Gelion-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gelion';
+    src: url('./../../assets/transfonter.org-20210809-124050/Gelion-BoldItalic.woff2') format('woff2'),
+        url('./../../assets/transfonter.org-20210809-124050/Gelion-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gelion';
+    src: url('./../../assets/transfonter.org-20210809-124050/Gelion-Light.woff2') format('woff2'),
+        url('./../../assets/transfonter.org-20210809-124050/Gelion-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gelion';
+    src: url('./../../assets/transfonter.org-20210809-124050/Gelion-Bold.woff2') format('woff2'),
+        url('./../../assets/transfonter.org-20210809-124050/Gelion-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gelion';
+    src: url('./../../assets/transfonter.org-20210809-124050/Gelion-Medium.woff2') format('woff2'),
+        url('./../../assets/transfonter.org-20210809-124050/Gelion-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gelion';
+    src: url('./../../assets/transfonter.org-20210809-124050/Gelion-MediumItalic.woff2') format('woff2'),
+        url('./../../assets/transfonter.org-20210809-124050/Gelion-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gelion';
+    src: url('./../../assets/transfonter.org-20210809-124050/Gelion-ThinItalic.woff2') format('woff2'),
+        url('./../../assets/transfonter.org-20210809-124050/Gelion-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gelion Regular';
+    src: url('./../../assets/transfonter.org-20210809-124050/Gelion-RegularItalic.woff2') format('woff2'),
+        url('./../../assets/transfonter.org-20210809-124050/Gelion-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gelion Semi';
+    src: url('./../../assets/transfonter.org-20210809-124050/Gelion-SemiBold.woff2') format('woff2'),
+        url('./../../assets/transfonter.org-20210809-124050/Gelion-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gelion';
+    src: url('./../../assets/transfonter.org-20210809-124050/Gelion-Thin.woff2') format('woff2'),
+        url('./../../assets/transfonter.org-20210809-124050/Gelion-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gelion Semi';
+    src: url('./../../assets/transfonter.org-20210809-124050/Gelion-SemiBoldItalic.woff2') format('woff2'),
+        url('./../../assets/transfonter.org-20210809-124050/Gelion-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gelion';
+    src: url('./../../assets/transfonter.org-20210809-124050/Gelion-Regular.woff2') format('woff2'),
+        url('./../../assets/transfonter.org-20210809-124050/Gelion-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+.main_page{    
+    font-family: 'Gelion Semi';
+}
+
+.navbar_div{
+    margin-top: 20px;
+ 
+}
+.add_t{
+    font-size: 13px;
+    width: 60%;
+    color: rgb(167, 161, 161);
+}
+.fut_{
+    font-size: 25px;
+    color: red;
+}
+._addPadd{
+padding-left: 4vw;
+}
+.aline{
+
+    // border: 1px solid black;
+}
+.navbar_{
+    // border: 1px solid black;
+}
+.for_btn{
+    // height: 70px; 
+}
+.for_title{
+    font-size: 25px;
+
+    color: rgb(243, 61, 61);
+}
+.btn_{
+
+ padding: 15px;
+ color: white;
+ border-radius: 9px;
+ background-color: rgb(243, 61, 61);
+
+}
+.for_names{
+    padding: 10px;
+}
+
+// /--------------------- most tru
+
+.most_trusted{
+ padding: 10px;
+}
+.line_s{
+    font-size: 40px;
+ text-align: center;
+ margin-top: 2vh;
+}
+.line_f{
+    font-size: 18px;
+ text-align: center;
+  margin-top: 20vh;
+
+}
+.our_cu{
+    padding: 30px;
+    // border: 1px solid rgb(8, 8, 8);
+}
+.options{
+    // border: 1px solid rgb(19, 18, 18);
+}
+.aline_i{
+    border: 2px solid rgb(167, 159, 159); height: 50px;margin: 7px;border-radius: 10px;
+}
+.our_seq{
+    font-size: 12px;
+}
+.cer{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid rgb(243, 237, 237);   
+
+}
+
+.mover{
+position: relative;
+left: 20px;
+background-color: rgb(167, 168, 230);
+}
+.mover1{
+    position: relative;
+    left: 10px;
+    z-index: 2;
+ border: 3px solid rgb(243, 237, 237);   
+    background-color: rgb(167, 168, 230);
+    }
+
+    .mover2{
+     
+     border: 3px solid rgb(243, 237, 237);
+        background-color: rgb(167, 168, 230);
+        }
+
+        .last{
+            position: relative;
+right: 5px;
+        }
+
+.input_box{
+    margin-bottom: 30px;
+    // border: 1px solid rgb(8, 8, 8);
+}
+.input_box_inner{
+    border: 2px solid #d2d2d2;
+    border-radius: 9px;   
+    min-height: 270px;
+    padding: 9px;
+}
+.input_box_inner p{
+    margin: 4px;
+}
+.drop{
+    width: 100%;
+padding: 17px;
+border-radius: 8px;
+}
+.butN{
+    color: white;height: 55px;border-radius: 10px;
+ background-color: rgb(243, 61, 61)
+}
+.last{
+    background-color: #e2efe8;
+}
+
+
+.cards{
+   
+
+}
+
+
+.card_cal{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.for_div{
+
+}
+.for_img{
+    height: 230px;
+    width: 230px;
+    border-radius: 8px;
+    
+
+
+}
+.for_card_title{
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.for_card_last{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.compo_class_name{
+    font-size: 19px;
+    color:red;
+    margin-top: 20px;
+}
+.bold_font{
+    font-size: 28px;
+    margin-bottom: 50px;
+
+}
+.font_ma{
+
+    // text-align: center;
+}
+.for_card_last img{
+    width: 20px;
+}
+.single_card{
+    width: 160px;height: 160px;
+}
+.inner_single{
+    width: 80px;
+    height: 80px;
+
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+    
+}
+.single_card span{
+font-size: 13px;
+}
+
+.height_of{
+    min-height: 500px;
+}
+.one_div_holder{
+    padding-right: 2vw;
+}
+
+
+.wrapper{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: space-between;
+  }
+  .wrapper .box{
+    background: #fff;
+ 
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
+  }
+  .wrapper .box .content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+  }
+
+  .img_seq{width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+
+  }
+  .box .info .name{
+    font-weight: 600;
+    font-size: 25px;
+  }
+  .box .info .job{
+    font-size: 14px;
+    font-weight: 500;
+    color: #e80404;
+  }
+  .box .info .stars{
+    margin-top: 2px;
+  }
+  .box .info .stars i{
+    color: #e80404;
+    font-size: 9px;
+  }
+  .box .content .image{
+    height: 85px;
+    width: 85px;
+    background: #17a2b8;
+    border-radius: 50%;
+  }
+  .content .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .width_{
+      width: 300px;
+   
+  }
+  .margin_top{
+    margin-top: 30px;
+}
+  
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #fafafa;
+  }
+  footer .content{
+    max-width: 100%px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  footer .content p,a{
+    color: #222222;
+  }
+  footer .content .box{
+    width: 23%;
+  }
+  footer .content .topic{
+    font-size: 22px;
+    font-weight: 600;
+    color: #222222;
+    margin-bottom: 16px;
+  
+  }
+  .marg{
+      height: 20vh;
+  }
+
+  footer .content p{
+    text-align: justify;
+  }
+  footer .content .lower .topic{
+    margin: 24px 0 5px 0;
+  }
+  .lower{
+    margin-left: 20px;
+  }
+  footer .content .lower i{
+    padding-right: 16px;
+  }
+  footer .content .middle{
+    padding-left: 80px;
+  }
+  footer .content .middle a{
+    line-height: 32px;
+  }
+  
+  footer .content .media-icons a{
+    font-size: 16px;
+    height: 45px;
+    width: 45px;
+    display: inline-block;
+    text-align: center;
+    line-height: 43px;
+    border-radius: 5px;
+    border: 2px solid #222222;
+    margin: 30px 5px 0 0;
+    transition: all 0.3s ease;
+  }
+  .content .media-icons a:hover{
+    border-color: #eb2f06;
+  }
+  footer .bottom{
+    width: 100%;
+    text-align: center;
+    color: black;
+    padding: 0 40px 5px 0;
+  }
+  footer .bottom a{
+    color: #eb2f06;
+  }
+  footer a{
+    transition: all 0.3s ease;
+  }
+  footer a:hover{
+    color: #eb2f06;
+  }
+  @media (max-width:1100px) {
+    footer .content .middle{
+      padding-left: 50px;
+    }
+  }
+  @media (max-width:950px){
+    footer .content .box{
+      width: 50%;
+    }
+    .content .right{
+      margin-top: 40px;
+    }
+  }
+  @media (max-width:560px){
+    footer{
+      position: relative;
+    }
+    footer .content .box{
+      width: 100%;
+      margin-top: 30px;
+    }
+    footer .content .middle{
+      padding-left: 0;
+    }
+  }
+  
+.hide_s{
+    display: visible;
+}
+  
+.add_marg{
+    margin-top:150px;
+}
+.bottom{
+    font-size: 11px;
+    text-align: center;
+    margin-top: 50px;
+}
+  
+/////////////////////   @media////////////////////////////////////////// 
+
+@media only screen and (max-width: 600px) {
+
+    .hide_s{
+        display:none;
+    }
+    .margin_top{
+        margin-top: 30px;
+    }
+    .padding_{    margin: 30px
+        
+    }
+    ._addPadd{
+        padding-left: 0vw;
+        }
+
+    .height_of{
+        min-height: 130px;
+    }
+    .card_i{
+    
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    .for_title{
+        // color: rgb(243, 61, 61);
+        font-size: 25px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .for_names span{
+font-size: 13px;
+    }
+    .for_card_title{
+        text-align: start;
+    }
+
+    .btn_{
+
+        padding: 8px;
+        margin: 10px;
+        font-size: 10px;
+ 
+       
+       }
+       .line_f{
+           margin-top: 7vh;
+           font-size: 12px;
+       }
+       .line_s{
+        font-size: 16px;
+        margin-top: 2vh;
+     text-align: center;
+    }
+    .our_seq{
+        font-size: 12px;
+     text-align: center;
+
+    }
+    .our_cu{
+        padding: 20px;
+    
+    }
+    .aline_i{
+        border:none;
+    }
+
+    .drop{
+        padding: 17px;
+        width: 100%;
+        border-radius: 8px;
+        }
+
+        .input_box_inner{font-size: 13px;}
+        .input_box_inner p{
+            margin: 4px;
+            
+        }
+        .compo_class_name{
+            font-size: 19px;
+            color:red;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .font_ma{
+
+            text-align: center;
+        }
+      
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
+
+
+
+
+
